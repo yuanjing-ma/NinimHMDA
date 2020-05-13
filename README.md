@@ -1,4 +1,4 @@
-## NinimHMDA: Neural Integration of Neighborhood Information for multiple Human Microbe-Disease Association Types Prediction on a Multiplex Heterogeneous Network
+## NinimHMDA: NinimHMDA: Neural Integration of Neighborhood Information on a Multiplex Heterogeneous Network for Multiple Human Microbe-Disease Association Types Prediction
 
 __Abstract__
 
