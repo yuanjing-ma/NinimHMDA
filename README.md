@@ -1,2 +1,7 @@
-# NinimHMDA
-NinimHMDA, a graph convolutional neural network model for large-scale multiple types human  microbe-disease association prediction 
+## NinimHMDA: Neural Integration of Neighborhood Information for multiple Human Microbe-Disease Association Types Prediction on a Multiplex Heterogeneous Network
+
+__Abstract__
+
+__Motivation:__ Many computational methods have been recently proposed to identify differentially abundant microbes related to a single disease using microbiome abundance data; however, few studies have focused on large-scale microbe-disease association prediction using existing experimentally verified associations. This area has critical meanings. For example, it can help to rank and select potential candidate microbes for different diseases at-scale for downstream lab validation experiments and it utilizes existing evidence instead of the abundance data which usually costs money and time to generate.
+
+__Results:__ We construct a multiplex heterogeneous network (MHEN) using human microbe-disease association database Disbiome and other prior biological databases and define the large-scale human microbe-disease association prediction as link prediction problems on MHEN. We develop an end-to-end graph convolutional neural network-based mining model NinimHMDA which can not only integrate different prior biological knowledge but also predict different types of microbe-disease associations (e.g. a microbe may be reduced or elevated under the impact of a disease) using one-time model training. To the best of our knowledge, this is the first method that targets on predicting different association types between microbes and diseases. Results from large-scale cross validation and case studies show that our model is highly competitive compared to other commonly used approaches.
